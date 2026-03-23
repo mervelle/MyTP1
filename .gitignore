@@ -1,0 +1,27 @@
+### Java/Maven ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+### Database/Docker ###
+# This stops your actual database data from being pushed to GitHub
+pgdata/
+postgres-data/
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Environment Secrets ###
+.env
